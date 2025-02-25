@@ -15,24 +15,27 @@
     display: flex;
     flex-direction: column;
     font-weight: bold;
+    width: 100%;
 }
 
 .data-form input {
-    padding: 5px;
+    padding: 8px;
     margin-top: 5px;
     border: 1px solid #aaa;
     border-radius: 3px;
-    width: 200%;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .data-form button {
-    padding: 8px 12px;
+    padding: 10px 15px;
+    margin-top: 5px;
     background-color: #007bff;
     color: white;
     border: none;
-    border-radius: 3px;
+    border-radius: 4px;
     cursor: pointer;
-    align-self: flex-start;
+    transition: background-color 0.2s;
 }
 
 .data-form button:hover {
