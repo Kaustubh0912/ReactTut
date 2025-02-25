@@ -1,11 +1,11 @@
 import React from 'react'
-import "./Add.css"
-const Add = () => {
+
+const Home = () => {
   return (
     <div>
-      
+      <h2>Home</h2>
     </div>
   )
 }
 
-export default Add
+export default Home
