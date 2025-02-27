@@ -1,0 +1,28 @@
+
+.dashboard ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    background-color: #7c0000;
+    padding: 10px 20px;
+
+}
+
+.dashboard li {
+    display: inline;
+}
+
+.dashboard a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 12px;
+    transition: color 0.3s ease;
+}
+
+.dashboard a:hover {
+    color: #ffcc00;
+}
